@@ -6,6 +6,7 @@ public class Product {
 	private double price;
 	private int quantity;
 	
+	//Constructors
 	public Product() {
 	}
 	
@@ -15,6 +16,7 @@ public class Product {
 		this.quantity = quantity;
 	}
 	
+	//Getters and Setters
 	public String getName() {
 		return name;
 	}
@@ -31,6 +33,11 @@ public class Product {
 		this.price = price;
 	}
 	
+	public double getQuantity() {
+		return quantity;
+	}
+	
+	//Functions
 	public double totalValueInStock() {
 		return price * quantity;
 	}
