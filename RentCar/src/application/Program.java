@@ -19,7 +19,7 @@ public class Program {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:ss");
 		
 		System.out.println("Enter rental data");
-		System.out.println("Car model: ");
+		System.out.print("Car model: ");
 		String carModel = sc.nextLine();
 		System.out.print("Pickup (dd/MM/yyyy HH:ss): ");
 		Date start = sdf.parse(sc.nextLine());
